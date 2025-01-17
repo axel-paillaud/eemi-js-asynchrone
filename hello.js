@@ -1,13 +1,10 @@
-const readline = require('readline');
+let greetings = "Hello, world!";
 
-// Créer une interface pour lire les entrées/sorties
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+const NAME = "Axel"; // String
+const AGE = 30; // Number
 
-// Afficher un prompt et récupérer la réponse
-rl.question("Quel est votre nom ? ", (name) => {
-    console.log(`Bonjour, ${name} !`);
-    rl.close();
-});
+greetings = "Goodbye, Mars!";
+
+let isActive = false;
+
+console.log(typeof(isActive));
