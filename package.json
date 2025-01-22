@@ -1,0 +1,12 @@
+{
+  "name": "eemi-js-asynchrone",
+  "version": "1.0.0",
+  "description": "JavaScript Asynchrone course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Axel Paillaud",
+  "license": "ISC",
+  "type": "module"
+}

@@ -1,10 +1,13 @@
-let greetings = "Hello, world!";
+const MY_NAME = "Axel";
 
-const NAME = "Axel"; // String
-const AGE = 30; // Number
+let weight = 70;
+let isMan = true;
+let age = 60;
 
-greetings = "Goodbye, Mars!";
-
-let isActive = false;
-
-console.log(typeof(isActive));
+if (age >= 60) {
+    console.log("Je suis un senior");
+} else if ( age > 20) {
+    console.log("Je suis un adulte")
+} else if (age > 13) {
+    console.log("Je suis un adolescent");
+}
