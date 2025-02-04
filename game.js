@@ -28,8 +28,17 @@ function update() {
     ball.y += ball.dy;
 
     // 🔄 Gestion des rebonds (mécanisme asynchrone)
-    // TODO
+    if (ball.x + ball.radius > canvas.width || ball.x - ball.radius < 0) {
+        ball.dx *= -1; // Inverser la direction horizontale
+    }
+    if (ball.y + ball.radius > canvas.height || ball.y - ball.radius < 0) {
+        ball.dy *= -1; // Inverser la direction verticale
+    }
+
+    // ⏳ Appel récursif pour la prochaine image
+    requestAnimationFrame(update);
 }
 
 // 🚀 Démarrer l'animation
 update();
+
