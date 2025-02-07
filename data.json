@@ -1,4 +1,95 @@
 {
-  firstName: "",
-  lastName: "",
+  "students": [
+    {
+      "id": 1,
+      "first_name": "Cassy",
+      "last_name": "ANDRIAMBALONIAIAINA",
+      "image": "img/user-solid.svg",
+      "specialty": "Mathematics"
+    },
+    {
+      "id": 2,
+      "first_name": "Marco",
+      "last_name": "Borgna",
+      "image": "img/user-solid.svg",
+      "specialty": "Physics"
+    },
+    {
+      "id": 3,
+      "first_name": "Nisa",
+      "last_name": "Dilek",
+      "image": "img/nisa-dilek.jpg",
+      "specialty": "Computer Science"
+    },
+    {
+      "id": 4,
+      "first_name": "Lamine",
+      "last_name": "Diouf",
+      "image": "img/user-solid.svg",
+      "specialty": "Chemistry"
+    },
+    {
+      "id": 5,
+      "first_name": "Vanessa",
+      "last_name": "Doulgue",
+      "image": "img/vanessa-doulgue.jpg",
+      "specialty": "Engineering"
+    },
+    {
+      "id": 5,
+      "first_name": "Mehdi",
+      "last_name": "Ellaabi",
+      "image": "img/user-solid.svg",
+      "specialty": "Mathematics"
+    },
+    {
+      "id": 5,
+      "first_name": "Esteban",
+      "last_name": "Frecina",
+      "image": "img/user-solid.svg",
+      "specialty": "Robotics"
+    },
+    {
+      "id": 5,
+      "first_name": "Freitas",
+      "last_name": "Manuel",
+      "image": "img/user-solid.svg",
+      "specialty": "Computer Science"
+    },
+    {
+      "id": 5,
+      "first_name": "Faissal",
+      "last_name": "Mebrouk",
+      "image": "img/user-solid.svg",
+      "specialty": "Astronomy"
+    },
+    {
+      "id": 5,
+      "first_name": "Malak",
+      "last_name": "Moutadayine",
+      "image": "img/malak-moutadayine.jpg",
+      "specialty": "Physics"
+    },
+    {
+      "id": 5,
+      "first_name": "Ensar",
+      "last_name": "Ozbey",
+      "image": "img/user-solid.svg",
+      "specialty": "Biology"
+    },
+    {
+      "id": 5,
+      "first_name": "Marius",
+      "last_name": "Pirson",
+      "image": "img/marius-pirson.jpg",
+      "specialty": "Artificial Intelligence"
+    },
+    {
+      "id": 5,
+      "first_name": "Titouan",
+      "last_name": "Rossat",
+      "image": "img/user-solid.svg",
+      "specialty": "Biology"
+    }
+  ]
 }
