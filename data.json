@@ -3,7 +3,7 @@
     {
       "id": 1,
       "first_name": "Cassy",
-      "last_name": "ANDRIAMBALONIAIAINA",
+      "last_name": "Andriambaloniaiaina",
       "image": "img/user-solid.svg",
       "specialty": "Mathematics"
     },
@@ -32,7 +32,7 @@
       "id": 5,
       "first_name": "Vanessa",
       "last_name": "Doulgue",
-      "image": "img/vanessa-doulgue.jpg",
+      "image": "img/vanessa-doulgue.png",
       "specialty": "Engineering"
     },
     {

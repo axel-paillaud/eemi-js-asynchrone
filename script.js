@@ -32,13 +32,18 @@ function updateList(students) {
     
     students.forEach(student => {
         const li = document.createElement('li');
-        li.innerHTML = `<img src="${student.image}" alt="${student.first_name} ${student.last_name}" width="30"> <strong>${student.first_name} ${student.last_name}</strong> - ${student.specialty}`;
+        li.innerHTML = `
+            <img src="${student.image}" alt="${student.first_name} ${student.last_name}" width="30"> 
+            <strong>${student.first_name} ${student.last_name}</strong> - ${student.specialty}
+            `;
+        // li.innerHTML = `${student.first_name} ${student.last_name}`;
         resultList.appendChild(li);
     });
 }
 
-document.addEventListener('keydown', event => {
-    console.log(`Touche appuyée : ${event.key}`);
-    fetchData(event.key);
-});
+document.getElementById('search-input').addEventListener('input', event => {
+    const key = event.target.value.toLowerCase();
+    console.log(`Texte saisi : ${key}`);
+    fetchData(key);
+});;
 
