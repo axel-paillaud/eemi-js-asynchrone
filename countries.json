@@ -1,0 +1,13 @@
+{
+  "countries": [
+    { "name": "France" },
+    { "name": "Canada" },
+    { "name": "Allemagne" },
+    { "name": "Brésil" },
+    { "name": "Japon" },
+    { "name": "Espagne" },
+    { "name": "Italie" },
+    { "name": "Inde" }
+  ]
+}
+
