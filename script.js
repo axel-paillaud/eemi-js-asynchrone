@@ -1,4 +1,4 @@
-function fetchCountries() {
+function fetchCountries(key) {
     fetch('./countries.json')
         .then(response => {
             if (!response.ok) {
@@ -7,25 +7,35 @@ function fetchCountries() {
             return response.json();
         })
         .then(data => {
-            //TODO Filtrer les pays en fonction de la touche appuyée,
-            // et les afficher dans la console.
-            //
-            console.log("Hello, world!");
+            const filteredCountries = data.countries.filter(country =>
+                country.name.toLowerCase().startsWith(key)
+            );
+
+            console.log('Pays correspondants :', filteredCountries);
 
             // Bonus : Affichage dynamique dans la page HTML
-            displayResults();
+            displayResults(filteredCountries);
         })
         .catch(error => {
             console.error('Erreur lors de la récupération des pays :', error);
         });
 }
 
-function displayResults() {
-    // TODO Bonus : Afficher les pays dans la page HTML
+function displayResults(countries) {
+    const resultList = document.getElementById('results');
+    resultList.innerHTML = ""; // Vide la liste avant de mettre à jour
+
+    countries.forEach(country => {
+        const li = document.createElement('li');
+        li.textContent = country.name;
+        resultList.appendChild(li);
+    });
 }
 
 document.addEventListener('keydown', event => {
-    console.log(`Touche appuyée : ${event.key}`);
-    // TODO Déclencher la fonction fetchCountries() à l'appuie d'une touche
+    if (event.key.length === 1) { // Filtrer uniquement les lettres
+        console.log(`Touche appuyée : ${event.key}`);
+        fetchCountries(event.key.toLowerCase());
+    }
 });
 
