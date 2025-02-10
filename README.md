@@ -19,7 +19,7 @@ Chaque exercice est disponible sur une branche spécifique. Pour passer à une b
 git checkout exercise-X
 ```
 
-Remplacez `X` par le numéro de l'exercice.
+Remplacez `X` par l'intitulé de l'exercice.
 
 (Attention, c'est `exercise` en anglais, et non `exercice`).
 
@@ -30,7 +30,7 @@ Les solutions sont disponibles sur des branches dédiées. Pour consulter la sol
 git checkout solution-X
 ```
 
-Encore une fois, remplacez `X` par le numéro de l'exercice concerné.
+Encore une fois, remplacez `X` par l'intitulé de l'exercice concerné.
 
 ### Revenir à la branche principale
 Pour revenir à la branche principale (`main`), utilisez :
