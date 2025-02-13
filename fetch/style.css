@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 32px;
+}
+
+main {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#search-input {
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: 1px solid gray;
+}
+
+ul > li {
+    margin: 16px 0;
+}
