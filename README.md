@@ -10,34 +10,37 @@ Bienvenue dans le module **JavaScript Asynchrone** dispensé à l'**EEMI**.
 
 ## Navigation entre les branches
 
-Le cours est organisé en différentes branches Git pour vous permettre de travailler sur les exercices et consulter les solutions.
+Le cours est organisé en différentes branches Git pour vous permettre de 
+consulter les solutions.
 
-### Changer de branche pour un exercice
-Chaque exercice est disponible sur une branche spécifique. Pour passer à une branche contenant un exercice, utilisez la commande suivante :
+### Lister les branches distantes
 
-```sh
-git checkout exercise-X
-```
-
-Remplacez `X` par l'intitulé de l'exercice.
-
-(Attention, c'est `exercise` en anglais, et non `exercice`).
+`git branch -a`
 
 ### Voir les solutions
 Les solutions sont disponibles sur des branches dédiées. Pour consulter la solution d'un exercice, utilisez :
 
-```sh
-git checkout solution-X
-```
+`git checkout solution-X`
 
-Encore une fois, remplacez `X` par l'intitulé de l'exercice concerné.
+Remplacez `X` par l'intitulé de l'exercice concerné.
 
 ### Revenir à la branche principale
 Pour revenir à la branche principale (`main`), utilisez :
 
-```sh
-git checkout main
-```
+`git checkout main`
+
+## Sauvegarder (push) ces modifications
+
+### Via le terminal
+
+Pour pousser vos modifications sur votre dépôt GitHub, voici les étapes :
+
+`git add -A` -> Ajouter vos fichiers au suivi GIT
+
+`git commit -m "My message"` -> Confirmer la modification de vos fichiers,
+avec un message expliquant vos modifications
+
+`git push` -> Pousser sur GitHub
 
 ## Bon apprentissage ! 🚀
 
