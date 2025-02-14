@@ -42,5 +42,14 @@ avec un message expliquant vos modifications
 
 `git push` -> Pousser sur GitHub
 
+### Via le script shell
+
+Un script est disponible dans le dépôt, et vous permet d'enchainer ces trois
+commandes GIT.
+
+Pour executer le script, dans le terminal :
+
+`./git.sh`
+
 ## Bon apprentissage ! 🚀
 
