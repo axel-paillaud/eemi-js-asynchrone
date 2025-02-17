@@ -14,6 +14,7 @@ Le programme doit suivre les étapes suivantes :
 
 1. **Vérification des systèmes avant le lancement**  
    - Vérifier si le carburant, les moteurs et la météo sont favorables.  
+   - 20% de chance qu'un des trois éléments soit défavorable, et d'annuler le décollage.
 2. **Effectuer le compte à rebours**  
    - Décompter de 5 à 0 avant le décollage.  
 3. **Lancer la fusée 🚀** 
