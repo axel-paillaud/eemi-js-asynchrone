@@ -83,6 +83,7 @@ répondre (`y`) pour confirmer l'installation
 ## Date de rendu  
 **La mission doit être complétée et présentée lors de la prochaine séance.**  
 **Envoyez le lien de votre dépôt GitHub par email à l'adresse `contact@axelweb.fr`**  
+(surtout pour ceux présent à l'EEMI de Lyon).
 
 **Bonne chance, astronautes !** 🚀🌍  
 
