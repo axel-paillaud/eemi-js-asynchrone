@@ -67,6 +67,12 @@ répondre (`y`) pour confirmer l'installation
 
 ---
 
+## Conseils
+
+- Utiliser l'objet statique `Math`si vous avez besoin de faire des opérations mathématiques
+(arrondir, obtenir un chiffre aléatoire ...)
+- Encapsuler les différentes étapes dans des fonctions (`startMission()`, `travelToMars()` ...)
+
 ## Bonus (facultatif)  
 ✔ Ajouter une **animation console** (`console.log("🔥...🚀...🌍")`).  
 ✔ Ajouter une **interaction utilisateur** (ex: demande de confirmation avant le lancement).  
